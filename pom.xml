@@ -49,6 +49,10 @@
                             <mainClass>Main</mainClass>
                         </manifest>
                     </archive>
+                    <sourceDirectory>.</sourceDirectory>
+                    <includes>
+                        <include>Main.java</include>
+                    </includes>
                 </configuration>
             </plugin>
         </plugins>
